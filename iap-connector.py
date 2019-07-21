@@ -413,9 +413,7 @@ def GenerateConfig(context):
                                 'name: {0}_mapping\n'
                                 'prefix: /\n'
                                 'host: {1}\n'
-                                'service: https://{2}:443\n'
-                                'host_rewrite: {2}\n'
-                                'tls: True\n')
+                                'service: http://{2}\n')
 
   # create services
   ingress_sepc_rules = []
